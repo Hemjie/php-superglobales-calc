@@ -105,8 +105,8 @@
                 </form>          
                 <?php
                     $convert = ""; 
-                    $e_b = 0.000064;
-                    $b_e = 15600.62;
+                    $e_b = 0.000055;
+                    $b_e = 18292.54;
                     if ($money === "euros") {
                         $convert = "bitcoins";                
                         echo "<h3 class='text-center'>$price $money vaut ".round(($price * $e_b), 4)." $convert</h3>";
